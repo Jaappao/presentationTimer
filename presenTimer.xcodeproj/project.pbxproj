@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDD248332882813200DFBCF0 /* presenTimer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FDD248322882813200DFBCF0 /* presenTimer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FDD248392882813200DFBCF0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD248372882813200DFBCF0 /* Interface.storyboard */; };
+		FDD2483B2882813400DFBCF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD2483A2882813400DFBCF0 /* Assets.xcassets */; };
+		FDD248412882813400DFBCF0 /* presenTimer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FDD248402882813400DFBCF0 /* presenTimer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FDD248462882813400DFBCF0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD248452882813400DFBCF0 /* InterfaceController.swift */; };
+		FDD248482882813400DFBCF0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD248472882813400DFBCF0 /* ExtensionDelegate.swift */; };
+		FDD2484A2882813400DFBCF0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD248492882813400DFBCF0 /* NotificationController.swift */; };
+		FDD2484C2882813400DFBCF0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD2484B2882813400DFBCF0 /* ComplicationController.swift */; };
+		FDD2484E2882813500DFBCF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD2484D2882813500DFBCF0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDD248342882813200DFBCF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD248282882813200DFBCF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD248312882813200DFBCF0;
+			remoteInfo = "presenTimer WatchKit App";
+		};
+		FDD248422882813400DFBCF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD248282882813200DFBCF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD2483F2882813400DFBCF0;
+			remoteInfo = "presenTimer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDD248562882813500DFBCF0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FDD248412882813400DFBCF0 /* presenTimer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD2485A2882813500DFBCF0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FDD248332882813200DFBCF0 /* presenTimer WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FDD2482E2882813200DFBCF0 /* presenTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = presenTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD248322882813200DFBCF0 /* presenTimer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "presenTimer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD248382882813200DFBCF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FDD2483A2882813400DFBCF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD248402882813400DFBCF0 /* presenTimer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "presenTimer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD248452882813400DFBCF0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FDD248472882813400DFBCF0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FDD248492882813400DFBCF0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FDD2484B2882813400DFBCF0 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		FDD2484D2882813500DFBCF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD2484F2882813500DFBCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD248502882813500DFBCF0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD2483D2882813400DFBCF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDD248272882813200DFBCF0 = {
+			isa = PBXGroup;
+			children = (
+				FDD248362882813200DFBCF0 /* presenTimer WatchKit App */,
+				FDD248442882813400DFBCF0 /* presenTimer WatchKit Extension */,
+				FDD2482F2882813200DFBCF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD2482F2882813200DFBCF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD2482E2882813200DFBCF0 /* presenTimer.app */,
+				FDD248322882813200DFBCF0 /* presenTimer WatchKit App.app */,
+				FDD248402882813400DFBCF0 /* presenTimer WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD248362882813200DFBCF0 /* presenTimer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FDD248372882813200DFBCF0 /* Interface.storyboard */,
+				FDD2483A2882813400DFBCF0 /* Assets.xcassets */,
+			);
+			path = "presenTimer WatchKit App";
+			sourceTree = "<group>";
+		};
+		FDD248442882813400DFBCF0 /* presenTimer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FDD248452882813400DFBCF0 /* InterfaceController.swift */,
+				FDD248472882813400DFBCF0 /* ExtensionDelegate.swift */,
+				FDD248492882813400DFBCF0 /* NotificationController.swift */,
+				FDD2484B2882813400DFBCF0 /* ComplicationController.swift */,
+				FDD2484D2882813500DFBCF0 /* Assets.xcassets */,
+				FDD2484F2882813500DFBCF0 /* Info.plist */,
+				FDD248502882813500DFBCF0 /* PushNotificationPayload.apns */,
+			);
+			path = "presenTimer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD2482D2882813200DFBCF0 /* presenTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD2485B2882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presenTimer" */;
+			buildPhases = (
+				FDD2482C2882813200DFBCF0 /* Resources */,
+				FDD2485A2882813500DFBCF0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD248352882813200DFBCF0 /* PBXTargetDependency */,
+			);
+			name = presenTimer;
+			productName = presenTimer;
+			productReference = FDD2482E2882813200DFBCF0 /* presenTimer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		FDD248312882813200DFBCF0 /* presenTimer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD248572882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presenTimer WatchKit App" */;
+			buildPhases = (
+				FDD248302882813200DFBCF0 /* Resources */,
+				FDD248562882813500DFBCF0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD248432882813400DFBCF0 /* PBXTargetDependency */,
+			);
+			name = "presenTimer WatchKit App";
+			productName = "presenTimer WatchKit App";
+			productReference = FDD248322882813200DFBCF0 /* presenTimer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FDD2483F2882813400DFBCF0 /* presenTimer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD248532882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presenTimer WatchKit Extension" */;
+			buildPhases = (
+				FDD2483C2882813400DFBCF0 /* Sources */,
+				FDD2483D2882813400DFBCF0 /* Frameworks */,
+				FDD2483E2882813400DFBCF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "presenTimer WatchKit Extension";
+			productName = "presenTimer WatchKit Extension";
+			productReference = FDD248402882813400DFBCF0 /* presenTimer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD248282882813200DFBCF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FDD2482D2882813200DFBCF0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FDD248312882813200DFBCF0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FDD2483F2882813400DFBCF0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FDD2482B2882813200DFBCF0 /* Build configuration list for PBXProject "presenTimer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDD248272882813200DFBCF0;
+			productRefGroup = FDD2482F2882813200DFBCF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD2482D2882813200DFBCF0 /* presenTimer */,
+				FDD248312882813200DFBCF0 /* presenTimer WatchKit App */,
+				FDD2483F2882813400DFBCF0 /* presenTimer WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD2482C2882813200DFBCF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD248302882813200DFBCF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD2483B2882813400DFBCF0 /* Assets.xcassets in Resources */,
+				FDD248392882813200DFBCF0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD2483E2882813400DFBCF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD2484E2882813500DFBCF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD2483C2882813400DFBCF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD2484A2882813400DFBCF0 /* NotificationController.swift in Sources */,
+				FDD2484C2882813400DFBCF0 /* ComplicationController.swift in Sources */,
+				FDD248482882813400DFBCF0 /* ExtensionDelegate.swift in Sources */,
+				FDD248462882813400DFBCF0 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDD248352882813200DFBCF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD248312882813200DFBCF0 /* presenTimer WatchKit App */;
+			targetProxy = FDD248342882813200DFBCF0 /* PBXContainerItemProxy */;
+		};
+		FDD248432882813400DFBCF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD2483F2882813400DFBCF0 /* presenTimer WatchKit Extension */;
+			targetProxy = FDD248422882813400DFBCF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDD248372882813200DFBCF0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD248382882813200DFBCF0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDD248512882813500DFBCF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDD248522882813500DFBCF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD248542882813500DFBCF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F5D5SKLYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "presenTimer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "presenTimer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presenTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		FDD248552882813500DFBCF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F5D5SKLYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "presenTimer WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "presenTimer WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presenTimer.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		FDD248582882813500DFBCF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F5D5SKLYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = presenTimer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "presenTimer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presenTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		FDD248592882813500DFBCF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F5D5SKLYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = presenTimer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "presenTimer WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presenTimer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		FDD2485C2882813500DFBCF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F5D5SKLYX;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presenTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FDD2485D2882813500DFBCF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F5D5SKLYX;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presenTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD2482B2882813200DFBCF0 /* Build configuration list for PBXProject "presenTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD248512882813500DFBCF0 /* Debug */,
+				FDD248522882813500DFBCF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD248532882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presenTimer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD248542882813500DFBCF0 /* Debug */,
+				FDD248552882813500DFBCF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD248572882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presenTimer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD248582882813500DFBCF0 /* Debug */,
+				FDD248592882813500DFBCF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD2485B2882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presenTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD2485C2882813500DFBCF0 /* Debug */,
+				FDD2485D2882813500DFBCF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD248282882813200DFBCF0 /* Project object */;
+}
