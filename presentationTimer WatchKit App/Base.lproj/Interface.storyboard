@@ -11,29 +11,69 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="presentationTimer_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="left" text="time" textAlignment="center" id="FgZ-CP-R0P">
-                            <fontDescription key="font" type="system" weight="medium" pointSize="28"/>
-                        </label>
-                        <button width="1" alignment="left" title="START" id="WVh-zq-Zqb">
-                            <color key="titleColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <connections>
-                                <action selector="start" destination="AgC-eL-Hgc" id="ffV-kt-cge"/>
-                            </connections>
-                        </button>
-                        <button width="1" alignment="left" title="STOP" id="B3I-Fp-sAb">
-                            <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <group width="1" height="0.32500000000000001" alignment="left" id="h2R-PB-yxq">
+                            <items>
+                                <imageView width="15" height="13" alignment="left" verticalAlignment="center" image="stop.fill" catalog="system" contentMode="scaleAspectFit" id="a6O-8E-L1Z">
+                                    <color key="tintColor" red="0.90980392156862744" green="0.15686274509803921" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </imageView>
+                                <label width="0.69999999999999996" widthAdjustment="14" height="34" alignment="right" verticalAlignment="center" text="0m 0s" textAlignment="right" id="FgZ-CP-R0P">
+                                    <fontDescription key="font" type="system" weight="medium" pointSize="30"/>
+                                </label>
+                            </items>
+                        </group>
+                        <separator alignment="left" alpha="0.25" id="Raz-Dg-Agv"/>
+                        <group width="1" height="0.25" alignment="left" id="5ys-ZT-igJ">
+                            <items>
+                                <imageView width="0.14999999999999999" widthAdjustment="-2" alignment="left" verticalAlignment="center" alpha="0.5" image="person.wave.2.fill" catalog="system" contentMode="scaleAspectFit" id="2Cp-PD-hTp">
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </imageView>
+                                <picker width="0.34999999999999998" widthAdjustment="2" height="28" alignment="left" verticalAlignment="center" focusStyle="stack" indicatorMode="shownWhileFocused" id="Gt9-yI-63W">
+                                    <connections>
+                                        <action selector="talkPickerAction:" destination="AgC-eL-Hgc" id="4vr-fI-Ctd"/>
+                                    </connections>
+                                </picker>
+                                <imageView width="0.14999999999999999" widthAdjustment="-3" alignment="left" verticalAlignment="center" alpha="0.5" image="person.fill.questionmark" catalog="system" contentMode="scaleAspectFit" id="Nyo-kP-JXw">
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </imageView>
+                                <picker width="0.34999999999999998" widthAdjustment="2" height="26" alignment="left" verticalAlignment="center" focusStyle="stack" indicatorMode="shownWhileFocused" id="xUU-bQ-Pfj">
+                                    <connections>
+                                        <action selector="questionPickerAction:" destination="AgC-eL-Hgc" id="ozR-f1-cuM"/>
+                                    </connections>
+                                </picker>
+                            </items>
+                        </group>
+                        <label width="1" height="0.10000000000000001" alignment="left" alpha="0.5" text="x - x - x - x" textAlignment="center" id="cWw-2y-wTV">
                             <fontDescription key="font" type="system" pointSize="14"/>
-                            <connections>
-                                <action selector="stop" destination="AgC-eL-Hgc" id="oos-i2-Ymb"/>
-                            </connections>
-                        </button>
+                        </label>
+                        <group width="1" height="0.29999999999999999" alignment="left" verticalAlignment="bottom" id="kEl-U4-0dL">
+                            <items>
+                                <button width="0.5" height="47" alignment="right" verticalAlignment="bottom" title="STOP" id="B3I-Fp-sAb">
+                                    <color key="titleColor" red="0.90980392156862744" green="0.15686274509803921" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="system" weight="semibold" pointSize="16"/>
+                                    <connections>
+                                        <action selector="stop" destination="AgC-eL-Hgc" id="oos-i2-Ymb"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="47" alignment="right" verticalAlignment="bottom" title="START" id="WVh-zq-Zqb">
+                                    <color key="titleColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="17"/>
+                                    <connections>
+                                        <action selector="start" destination="AgC-eL-Hgc" id="ffV-kt-cge"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
                     </items>
                     <connections>
+                        <outlet property="image" destination="a6O-8E-L1Z" id="clw-Zw-yqo"/>
                         <outlet property="label" destination="FgZ-CP-R0P" id="fPO-0C-qLT"/>
+                        <outlet property="label4" destination="cWw-2y-wTV" id="GbW-H4-BAW"/>
+                        <outlet property="questionPicker" destination="xUU-bQ-Pfj" id="CAT-gx-XT7"/>
+                        <outlet property="talkPicker" destination="Gt9-yI-63W" id="pO2-wv-mVW"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="102" y="143.5"/>
+            <point key="canvasLocation" x="102" y="92"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -67,4 +107,9 @@
             <point key="canvasLocation" x="468" y="345"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="person.fill.questionmark" catalog="system" width="128" height="101"/>
+        <image name="person.wave.2.fill" catalog="system" width="128" height="118"/>
+        <image name="stop.fill" catalog="system" width="128" height="112"/>
+    </resources>
 </document>
