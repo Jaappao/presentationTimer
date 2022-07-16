@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FDD248332882813200DFBCF0 /* presenTimer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FDD248322882813200DFBCF0 /* presenTimer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FDD248332882813200DFBCF0 /* presentationTimer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FDD248322882813200DFBCF0 /* presentationTimer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FDD248392882813200DFBCF0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD248372882813200DFBCF0 /* Interface.storyboard */; };
 		FDD2483B2882813400DFBCF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD2483A2882813400DFBCF0 /* Assets.xcassets */; };
-		FDD248412882813400DFBCF0 /* presenTimer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FDD248402882813400DFBCF0 /* presenTimer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FDD248412882813400DFBCF0 /* presentationTimer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FDD248402882813400DFBCF0 /* presentationTimer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FDD248462882813400DFBCF0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD248452882813400DFBCF0 /* InterfaceController.swift */; };
 		FDD248482882813400DFBCF0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD248472882813400DFBCF0 /* ExtensionDelegate.swift */; };
 		FDD2484A2882813400DFBCF0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD248492882813400DFBCF0 /* NotificationController.swift */; };
@@ -42,7 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				FDD248412882813400DFBCF0 /* presenTimer WatchKit Extension.appex in Embed App Extensions */,
+				FDD248412882813400DFBCF0 /* presentationTimer WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,7 +53,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				FDD248332882813200DFBCF0 /* presenTimer WatchKit App.app in Embed Watch Content */,
+				FDD248332882813200DFBCF0 /* presentationTimer WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,11 +61,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FDD2482E2882813200DFBCF0 /* presenTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = presenTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDD248322882813200DFBCF0 /* presenTimer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "presenTimer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD2482E2882813200DFBCF0 /* presentationTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = presentationTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD248322882813200DFBCF0 /* presentationTimer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "presentationTimer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD248382882813200DFBCF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		FDD2483A2882813400DFBCF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FDD248402882813400DFBCF0 /* presenTimer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "presenTimer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD248402882813400DFBCF0 /* presentationTimer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "presentationTimer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD248452882813400DFBCF0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		FDD248472882813400DFBCF0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		FDD248492882813400DFBCF0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -89,8 +89,8 @@
 		FDD248272882813200DFBCF0 = {
 			isa = PBXGroup;
 			children = (
-				FDD248362882813200DFBCF0 /* presenTimer WatchKit App */,
-				FDD248442882813400DFBCF0 /* presenTimer WatchKit Extension */,
+				FDD248362882813200DFBCF0 /* presentationTimer WatchKit App */,
+				FDD248442882813400DFBCF0 /* presentationTimer WatchKit Extension */,
 				FDD2482F2882813200DFBCF0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,23 +98,23 @@
 		FDD2482F2882813200DFBCF0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FDD2482E2882813200DFBCF0 /* presenTimer.app */,
-				FDD248322882813200DFBCF0 /* presenTimer WatchKit App.app */,
-				FDD248402882813400DFBCF0 /* presenTimer WatchKit Extension.appex */,
+				FDD2482E2882813200DFBCF0 /* presentationTimer.app */,
+				FDD248322882813200DFBCF0 /* presentationTimer WatchKit App.app */,
+				FDD248402882813400DFBCF0 /* presentationTimer WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FDD248362882813200DFBCF0 /* presenTimer WatchKit App */ = {
+		FDD248362882813200DFBCF0 /* presentationTimer WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				FDD248372882813200DFBCF0 /* Interface.storyboard */,
 				FDD2483A2882813400DFBCF0 /* Assets.xcassets */,
 			);
-			path = "presenTimer WatchKit App";
+			path = "presentationTimer WatchKit App";
 			sourceTree = "<group>";
 		};
-		FDD248442882813400DFBCF0 /* presenTimer WatchKit Extension */ = {
+		FDD248442882813400DFBCF0 /* presentationTimer WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				FDD248452882813400DFBCF0 /* InterfaceController.swift */,
@@ -125,15 +125,15 @@
 				FDD2484F2882813500DFBCF0 /* Info.plist */,
 				FDD248502882813500DFBCF0 /* PushNotificationPayload.apns */,
 			);
-			path = "presenTimer WatchKit Extension";
+			path = "presentationTimer WatchKit Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FDD2482D2882813200DFBCF0 /* presenTimer */ = {
+		FDD2482D2882813200DFBCF0 /* presentationTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDD2485B2882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presenTimer" */;
+			buildConfigurationList = FDD2485B2882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presentationTimer" */;
 			buildPhases = (
 				FDD2482C2882813200DFBCF0 /* Resources */,
 				FDD2485A2882813500DFBCF0 /* Embed Watch Content */,
@@ -143,14 +143,14 @@
 			dependencies = (
 				FDD248352882813200DFBCF0 /* PBXTargetDependency */,
 			);
-			name = presenTimer;
+			name = presentationTimer;
 			productName = presenTimer;
-			productReference = FDD2482E2882813200DFBCF0 /* presenTimer.app */;
+			productReference = FDD2482E2882813200DFBCF0 /* presentationTimer.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		FDD248312882813200DFBCF0 /* presenTimer WatchKit App */ = {
+		FDD248312882813200DFBCF0 /* presentationTimer WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDD248572882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presenTimer WatchKit App" */;
+			buildConfigurationList = FDD248572882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presentationTimer WatchKit App" */;
 			buildPhases = (
 				FDD248302882813200DFBCF0 /* Resources */,
 				FDD248562882813500DFBCF0 /* Embed App Extensions */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				FDD248432882813400DFBCF0 /* PBXTargetDependency */,
 			);
-			name = "presenTimer WatchKit App";
+			name = "presentationTimer WatchKit App";
 			productName = "presenTimer WatchKit App";
-			productReference = FDD248322882813200DFBCF0 /* presenTimer WatchKit App.app */;
+			productReference = FDD248322882813200DFBCF0 /* presentationTimer WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		FDD2483F2882813400DFBCF0 /* presenTimer WatchKit Extension */ = {
+		FDD2483F2882813400DFBCF0 /* presentationTimer WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDD248532882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presenTimer WatchKit Extension" */;
+			buildConfigurationList = FDD248532882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presentationTimer WatchKit Extension" */;
 			buildPhases = (
 				FDD2483C2882813400DFBCF0 /* Sources */,
 				FDD2483D2882813400DFBCF0 /* Frameworks */,
@@ -177,9 +177,9 @@
 			);
 			dependencies = (
 			);
-			name = "presenTimer WatchKit Extension";
+			name = "presentationTimer WatchKit Extension";
 			productName = "presenTimer WatchKit Extension";
-			productReference = FDD248402882813400DFBCF0 /* presenTimer WatchKit Extension.appex */;
+			productReference = FDD248402882813400DFBCF0 /* presentationTimer WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +203,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FDD2482B2882813200DFBCF0 /* Build configuration list for PBXProject "presenTimer" */;
+			buildConfigurationList = FDD2482B2882813200DFBCF0 /* Build configuration list for PBXProject "presentationTimer" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,9 +216,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDD2482D2882813200DFBCF0 /* presenTimer */,
-				FDD248312882813200DFBCF0 /* presenTimer WatchKit App */,
-				FDD2483F2882813400DFBCF0 /* presenTimer WatchKit Extension */,
+				FDD2482D2882813200DFBCF0 /* presentationTimer */,
+				FDD248312882813200DFBCF0 /* presentationTimer WatchKit App */,
+				FDD2483F2882813400DFBCF0 /* presentationTimer WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -267,12 +267,12 @@
 /* Begin PBXTargetDependency section */
 		FDD248352882813200DFBCF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FDD248312882813200DFBCF0 /* presenTimer WatchKit App */;
+			target = FDD248312882813200DFBCF0 /* presentationTimer WatchKit App */;
 			targetProxy = FDD248342882813200DFBCF0 /* PBXContainerItemProxy */;
 		};
 		FDD248432882813400DFBCF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FDD2483F2882813400DFBCF0 /* presenTimer WatchKit Extension */;
+			target = FDD2483F2882813400DFBCF0 /* presentationTimer WatchKit Extension */;
 			targetProxy = FDD248422882813400DFBCF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,11 +409,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8F5D5SKLYX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "presenTimer WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "presentationTimer WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "presenTimer WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = presentationTimer_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = presentationTimer_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -421,7 +421,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presenTimer.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presentationTimer.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -440,11 +440,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8F5D5SKLYX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "presenTimer WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "presentationTimer WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "presenTimer WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = presentationTimer_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = presentationTimer_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,7 +452,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presenTimer.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presentationTimer.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -473,11 +473,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8F5D5SKLYX;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = presenTimer_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "presenTimer WatchKit App";
+				IBSC_MODULE = presentationTimer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "presentationTimer WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presenTimer.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presentationTimer.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -498,11 +498,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8F5D5SKLYX;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = presenTimer_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "presenTimer WatchKit App";
+				IBSC_MODULE = presentationTimer_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "presentationTimer WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presenTimer.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presentationTimer.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -520,7 +520,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8F5D5SKLYX;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presenTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presentationTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -533,7 +533,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8F5D5SKLYX;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presenTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = app.nihommatsu.jaappao.presentationTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -542,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FDD2482B2882813200DFBCF0 /* Build configuration list for PBXProject "presenTimer" */ = {
+		FDD2482B2882813200DFBCF0 /* Build configuration list for PBXProject "presentationTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDD248512882813500DFBCF0 /* Debug */,
@@ -551,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDD248532882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presenTimer WatchKit Extension" */ = {
+		FDD248532882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presentationTimer WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDD248542882813500DFBCF0 /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDD248572882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presenTimer WatchKit App" */ = {
+		FDD248572882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presentationTimer WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDD248582882813500DFBCF0 /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDD2485B2882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presenTimer" */ = {
+		FDD2485B2882813500DFBCF0 /* Build configuration list for PBXNativeTarget "presentationTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDD2485C2882813500DFBCF0 /* Debug */,

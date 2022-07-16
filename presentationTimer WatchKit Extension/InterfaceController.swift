@@ -28,6 +28,7 @@ class InterfaceController: WKInterfaceController {
         startTime = Date()
         timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { _ in
             let timeDiff = Int(-1 * self.startTime.timeIntervalSinceNow)
+            print(timeDiff)
             self.label.setText(self.timeString(number: timeDiff))
             
             if timeDiff ==  10 * self.oneminute {
